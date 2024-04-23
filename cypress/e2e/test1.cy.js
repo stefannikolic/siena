@@ -8,6 +8,9 @@ describe('template spec', () => {
     cy.get('cib-action-bar').shadow().find('[description="Submit"]').click();
     cy.wait(20000);
     cy.get('cib-chat-turn').shadow().find('.tooltip-target').should('contain', 'Belgrade')
+    cy.get('cib-muid-consent').shadow().find('button[type="button"]').click()
+    cy.get('cib-action-bar').shadow().find('.button-compose').click();
+    cy.get('cib-tone-selector').shadow().find('button[role="radio"]').eq(1).click();
     // cy.get('cib-serp').shadow().get('cib-action-bar').shadow().find('.get-ccp-button').click();
     //cy.get(["tone-precise"]).click() 
   })
