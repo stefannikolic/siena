@@ -1,0 +1,26 @@
+{
+  "subTitle": "Your everyday AI companion",
+  "textMessage": "What is the capital city of Serbia, short answer",
+  "city": "Fixtures are a great way to mock data for responses to routes",
+
+  "copilotGPTs": {
+    "copilot": "Copilot",
+    "designer": "Designer",
+    "vacationPlanner": "Vacation planner",
+    "cookingAssistant": "Cooking assistant",
+    "fitnessTrainer": "Fitness trainer"
+  },
+
+  "color": {
+    "purple": "linear-gradient(130deg, rgb(0, 104, 128) 20%, rgb(0, 83, 102) 77.5%)",
+    "blue": "linear-gradient(130deg, rgb(145, 72, 135) 20%, rgb(139, 37, 126) 77.5%)",
+    "green": "linear-gradient(130deg, rgb(40, 112, 234) 20%, rgb(27, 74, 239) 77.5%)"
+  },
+
+  "links": {
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "FAQs": "FAQs",
+    "tryCopilotPro": "Try Copilot Pro"
+  }
+}

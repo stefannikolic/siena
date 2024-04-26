@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+const BASE_URL = 'https://www.bing.com/chat?setlang=en';
+
+Cypress.Commands.add('visitBaseUrl', () => {
+  cy.visit(BASE_URL);
+});
