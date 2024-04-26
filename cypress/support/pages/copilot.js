@@ -21,6 +21,7 @@ class Copilot {
     TITLE_GPT_COPILOT = '.b_wlcmName';
     TARGET_LINK = 'a[target="_blank"]';
     COPILOT_PRO_BUTTON = '.get-ccp-button';
+    NEW_TOPIC_BUTTON = '.button-compose-content';
     
 
 
@@ -104,6 +105,10 @@ class Copilot {
 
     getCopilotProButton() {
         return cy.get(this.COPILOT_PRO_BUTTON);
+    }
+
+    getNewTopicButton() {
+        return cy,get(this.NEW_TOPIC_BUTTON);
     }
 }
 

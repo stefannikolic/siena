@@ -1,7 +1,7 @@
 {
   "subTitle": "Your everyday AI companion",
   "textMessage": "What is the capital city of Serbia, short answer",
-  "city": "Fixtures are a great way to mock data for responses to routes",
+  "city": "Belgrade",
 
   "copilotGPTs": {
     "copilot": "Copilot",
@@ -21,6 +21,6 @@
     "terms": "Terms",
     "privacy": "Privacy",
     "FAQs": "FAQs",
-    "tryCopilotPro": "Try Copilot Pro"
+    "tryCopilotPro": "Get Copilot Pro"
   }
 }
